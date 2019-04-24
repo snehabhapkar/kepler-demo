@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders children correctly 1`] = `
+<div
+  className="MenuAppBar-root-1"
+>
+  <header
+    className="MuiPaper-root-14 MuiPaper-elevation4-20 MuiAppBar-root-5 MuiAppBar-positionFixed-6 MuiAppBar-colorPrimary-12 mui-fixed MenuAppBar-appBar-4"
+  >
+    <div
+      className="MuiToolbar-root-41 MuiToolbar-regular-43 MuiToolbar-gutters-42"
+    >
+      <h6
+        className="MuiTypography-root-45 MuiTypography-h6-62 MuiTypography-colorInherit-74 MenuAppBar-grow-2"
+      >
+        GapMaps Admin
+      </h6>
+      <div>
+        <button
+          aria-haspopup="true"
+          className="MuiButtonBase-root-87 MuiIconButton-root-81 MuiIconButton-colorInherit-82"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label-86"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-90"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root-103"
+          />
+        </button>
+      </div>
+    </div>
+  </header>
+</div>
+`;

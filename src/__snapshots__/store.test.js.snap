@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`store should have a store 1`] = `
+Object {
+  "homeReducer": Object {
+    "formData": Array [],
+  },
+  "router": Object {
+    "action": "POP",
+    "location": Object {
+      "hash": "",
+      "pathname": "/",
+      "search": "",
+      "state": undefined,
+    },
+  },
+}
+`;

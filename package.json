@@ -1,0 +1,73 @@
+{
+  "name": "Application",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "connected-react-router": "6.3.2",
+    "es6-shim": "^0.35.5",
+    "history": "^4.9.0",
+    "kepler.gl": "^1.0.0-0",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "react-render-html": "0.6.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-spinners": "0.5.4",
+    "react-test-renderer": "^16.8.6",
+    "react-virtualized": "^9.18.5",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-form": "^8.1.0",
+    "redux-promise-middleware": "^6.1.0",
+    "redux-saga": "^1.0.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "enzyme-redux": "^0.2.1",
+    "jest-junit-reporter": "^1.1.0",
+    "jest-localstorage-mock": "^2.4.0",
+    "prettier": "^1.16.4",
+    "redux-saga-test-plan": "^4.0.0-beta.2",
+    "redux-test-utils": "^0.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --setupFiles ./setupTests.js",
+    "eject": "react-scripts eject",
+    "coverage": "react-scripts test --env=jsdom --coverage --setupFiles ./setupTests.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    },
+    "coverageReporters": [
+      "text"
+    ]
+  }
+}
